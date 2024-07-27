@@ -19,10 +19,7 @@
   --white_a12: hsla(0, 0%, 100%, 0.12);
   --white_a70: hsla(0, 0%, 100%, 0.7);
   --cultured: hsla(220, 20%, 97%, 1);
-<<<<<<< HEAD
   --darker-cultured: hsla(220, 20%, 91%, 1); /* Darker shade */
-=======
->>>>>>> origin/main
   --lavender-web: hsla(233, 52%, 94%, 1);
   --cadet-blue-crayola: hsla(220, 12%, 70%, 1);
   --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
@@ -608,11 +605,7 @@ body.nav-active { overflow: hidden; }
   #STATS
 \*-----------------------------------*/
 
-<<<<<<< HEAD
 .stats { background-image: linear-gradient(to bottom, var(--white) 50%, var(--darker-cultured) 50%); }
-=======
-.stats { background-image: linear-gradient(to bottom, var(--white) 50%, var(--cultured) 50%); }
->>>>>>> origin/main
 
 .stats-card {
   display: grid;
@@ -633,11 +626,7 @@ body.nav-active { overflow: hidden; }
   #PROJECT
 \*-----------------------------------*/
 
-<<<<<<< HEAD
 .project { background-color: var( --darker-cultured)}
-=======
-.project { background-color: var(--cultured); }
->>>>>>> origin/main
 
 .project :is(.section-subtitle, .section-title) { text-align: center; }
 
@@ -1107,7 +1096,6 @@ body.nav-active { overflow: hidden; }
 
   .feature-list { grid-template-columns: 1fr 1fr; }
 
-<<<<<<< HEAD
 }
 
 .contact-container{
@@ -1199,6 +1187,4 @@ body.nav-active { overflow: hidden; }
   .contact-right{
     display: none;
   }
-=======
->>>>>>> origin/main
 }
