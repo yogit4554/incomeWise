@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>IncomeWise Advisors</title>
+  <meta name="title" content="IncomeWise Advisors">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/fotor-20240329164344.png" type="image/png">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" 
+  integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" 
+  integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+  <style>
+
+    .slider .slick-slide {
+        padding: 0 10px; /* Adds space between slides */
+        box-sizing: border-box; /* Ensures padding is included in width */
+      }
+
+      .project-card {
+        width: calc(100% - 20px); /* Adjust width of the cards if needed */
+      }
+
+      .slick-prev {
+        left: -50px; /* Positioning of the left arrow */
+      }
+
+      .slick-next {
+        right: -50px; /* Positioning of the right arrow */
+      }
+
+  </style>
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+  
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/fotor-20240329164344.png" width="74" height="24" alt="Adex home" class="logo-light">
+
+        <img src="./assets/images/fotor-20240329164344.png" width="74" height="24" alt="Adex home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/fotor-20240329164344.png" width="74" height="24" alt="Adex home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:incomewiseadvisors@gmail.com" class="contact-link">incomewiseadvisors@gmail.com</a>
+
+          <a href="tel:+91 8010103202" class="contact-link">+91 8010103202</a>
+        </div>
+
+        
+
+      </nav>
+
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Delivering tailored financial solutions with expertise.</h1>
+
+            <p class="hero-text">
+              We are a consultancy firm specializing in a comprehensive range of financial services, including PF, ESIC, GST, balance sheet management, audits, income tax return preparation, and GST return filing.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#projects" class="btn btn-primary">Explore Now</a>
+
+              <a href="mailto:vinaymra@gmail.com" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/gst-consultants.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/12.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/GST CAR 2908-20.png" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                  
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label" id="projects">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">What We Do?</p>
+
+          <h2 class="h2 section-title">
+            Our services are specifically tailored to meet your accounting and taxation requirements.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/gst-icon.png" width="35" height="35" alt="GST LOGO"
+                  aria-hidden="true" >
+                </div>
+
+                <h3 class="h4 card-title">GST compliance</h3>
+
+                <p class="card-text">
+                  We provide comprehensive GST services, including registration and monthly/quarterly filing such as GSTR3B, 
+                  GSTR1, GSTR-4, and GSTR-9.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/balance-sheet (1).png" width="35" height="35" alt="Balamce Sheet"
+                  aria-hidden="true" >
+                </div>
+
+                <h3 class="h4 card-title">Balance Sheet </h3>
+
+                <p class="card-text">
+                  Our expertise extends to preparing Balance Sheets for various entity types, encompassing Proprietorship firms, Partnership firms, LLPs, and Private Limited companies.</p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/EPFO-White.png" width="35" height="35" alt="EPFO PNG"
+                  aria-hidden="true" >
+                </div>
+
+                <h3 class="h4 card-title">EPF and ESIC Filing</h3>
+
+                <p class="card-text">
+                  We specialize in the filing of Provident Fund (PF) and Employee's State Insurance Corporation (ESIC).
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/pngwing.com.png" width="35" height="35" alt="EPFO PNG"
+                  aria-hidden="true" >
+                </div>
+
+                <h3 class="h4 card-title">Accounting</h3>
+
+                <p class="card-text">
+                  We manage daily accounting tasks: trial balance, invoicing, vouchers, payable/receivable, bill verification, and billing processes.
+                </p>
+
+                
+
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/Income.png" width="45" height="45" alt="EPFO PNG"
+                  aria-hidden="true" >
+                </div>
+
+                <h3 class="h4 card-title">Income Tax Return (ITR) Filing</h3>
+
+                <p class="card-text">
+                  Our specialization lies in filing Income Tax Returns (ITRs) for businesses and 
+                  individuals with both salary and business income.
+                </p>
+
+                
+
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/msme.png" width="55" height="55" alt="MSME PNG"
+                  aria-hidden="true" >
+                </div>
+
+                <h3 class="h4 card-title">MSME/Udyam Registration</h3>
+
+                <p class="card-text">
+                  We specialize in facilitating the registration process for MSME (Micro, Small, Medium Enterprises)
+                  and updating existing MSME profiles.
+                </p>
+
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <div class="card-icon">
+                    <img src="./assets/images/tds (1).png" width="35" height="35" alt="MSME PNG"
+                    aria-hidden="true" >
+                  </div>
+                </div>
+
+                <h3 class="h4 card-title">TDS</h3>
+
+                <p class="card-text">
+                  We specialize in TAN registration, TDS return filing, and calculation services.
+                </p>
+
+              
+
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/TradeMark.png" width="35" height="35" alt="MSME PNG"
+                    aria-hidden="true" >
+                </div>
+
+                <h3 class="h4 card-title">Trademark</h3>
+
+                <p class="card-text">
+                  We specialize in trademark registration and provide our clients with a hassle-free trademarking experience.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              We bring solutions to make life easier for our clients.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Professional Consultant</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    With over 18 years of expertise in consulting and accounting, we have successfully managed the 
+                    accounting departments of prominent private limited companies, demonstrating our proficiency in delivering top-notch financial services.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Comprehensive Services</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    From GST registration and filing to income tax returns and balance sheet preparation, 
+                    we offer a comprehensive suite of services to fulfill all your financial requirements under one roof.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Client-Centric Approach</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Our dedication to client satisfaction drives us to go above and 
+                    beyond, offering exceptional service and support at every step of the way.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              We make your financial management stress-free and guide you to make the best use of your resources.
+            </h2>
+
+            <p class="section-text">
+              we understand the intricacies of financial management, and we're 
+              here to make it stress-free for you. Our comprehensive suite of services is designed to guide you through every aspect of managing your finances, ensuring optimal resource utilization and peace of mind.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    PF and ESIC Filing.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    GST & Tax Compliance.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Day-to-Day Accounting Operations.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Precise Financial Statements.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">220</span>
+
+                <spna class="span">Clients</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">210</span>
+
+                <spna class="span">Happy Clients</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">120</span>
+
+                <spna class="span">Private Companies</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">100</span>
+
+                <spna class="span">Proprietorship</spna>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="clients">
+        <div class="container">
+
+
+          <h2 class="h2 section-title">
+            Our Clients
+          </h2>
+
+          <ul class="slider grid-list ">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/onestoreindia_private_limited_logo.jpeg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://onestoreindia.com/" class="card-title">One Store India Private Limited</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://cybertech.com/" class="card-title">Cybero Tech Private Limited</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://mkrocktechlimited.com/" class="card-title">Mk Rock Tech Private Limited</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://mkrocktechlimited.com/" class="card-title">Manacle </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://mkrocktechlimited.com/" class="card-title">Check slider 2</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      
+
+    </article>
+  </main>
+
+  <!-- 
+  - #Contact Form
+  -->
+  <div class="contact-container" id="contact" >
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+      <div class="contact-left-title">
+        <h2>Get in touch</h2>
+        <hr>
+      </div>
+      <input type="hidden" name="access_key" value="64588a82-2a68-48c4-9396-45df95b26118">
+      <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+      <input type="email" name="email" placeholder="incomewiseadvisors@gmail.com" class="contact-inputs" required>
+      <input type="contactno" name="contact no" placeholder="+91 8010103202" class="contact-inputs" required>
+      <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="contact-right">
+     <img src="./assets/images/temp.png">
+    </div>
+  </div>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" >
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/fotor-20240329164344.png" width="74" height="24" alt="Adex home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024 IncomeWise Advisors. <br> All rights reserved.
+        </p>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            East of Kailash, New Delhi
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:incomewiseadvisors@gmail.com" class="footer-link">incomewiseadvisors@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+91 8010103202" class="footer-link">+91 8010103202</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#about" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#clients" class="footer-link">Our Clients</a>
+        </li>
+
+        <li>
+          <a href="#projects" class="footer-link">Our Services</a>
+        </li>
+
+      </ul>
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+        
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field" id="Email">
+
+          <button type="submit" class="submit-btn" id="join">Join</button>
+        </form>
+
+      </div>
+      <script type="module">
+        // Import the functions you need from the SDKs you need
+         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+        import { getDatabase,ref,set,get,child } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-database.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+    
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+    apiKey: "AIzaSyBxsGzO5AvYsOLxzUN0NzfEX60_Vy-fa6I",
+    authDomain: "incomewise.firebaseapp.com",
+    projectId: "incomewise",
+    storageBucket: "incomewise.appspot.com",
+    messagingSenderId: "518765746074",
+    appId: "1:518765746074:web:c3609b9ef09a7447c64c23",
+    measurementId: "G-545LWG5KMF"
+    };
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+    document.getElementById("join").addEventListener('click',function(e){
+    e.preventDefault();
+    set(ref(db,'user/'+ new Date().getTime().toString()),
+    {
+    email:document.getElementById("Email").value
+    });
+    alert("Thanks!!")
+    })
+      </script>
+    </div>
+  </footer>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" 
+  integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="text/javascript">
+  $('.slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay:true,
+  autoplaySpeed:2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+  </script>
+</body>
+
+</html>
